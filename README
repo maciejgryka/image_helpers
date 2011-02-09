@@ -1,1 +1,3 @@
-some generic MATLAB functions for dealing with images
+Few MATLAB functions for dealing with images.
+
+Note: Some require Image Processing Toolbox and/or Curve Fitting Toolbox.
