@@ -1,6 +1,6 @@
 function showSurf(im)
     im = double(im);
-    if size(im,3) == 3
+    if isrgb(im)
         im = rgb2gray(im);
     end
     surf(im, 'LineStyle', 'none');
